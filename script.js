@@ -25,7 +25,7 @@ const resetGame = () =>
     }
     checkwin = false;
     cnt = 0;
-    turnO = true;
+    turnO = false;
     enableBoxes();   
     msgContainer.classList.add("hide");
     showmain.classList.remove("hide");
