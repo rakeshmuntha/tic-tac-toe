@@ -8,7 +8,7 @@ let cnt = 0;
 let checkwin = false;
 
 
-let turnO = true;// it is O turn
+let turnO = false;// it is x turn
 
 const winPatterns = [
     [0, 1, 2],[0, 3, 6],[0, 4, 8],
